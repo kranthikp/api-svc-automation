@@ -4,3 +4,4 @@ coverage
 logs
 junit.xml
 test-report.html
+package-lock.json
