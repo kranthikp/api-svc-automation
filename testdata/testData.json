@@ -1,0 +1,27 @@
+[
+  {
+    "description": "Test to get users on page 1",
+    "endpoint": "api/users?page=2",
+    "expectedStatusCode": 200
+  },
+  {
+    "description": "Test to get users on page 2",
+    "endpoint": "api/users?page=3",
+    "expectedStatusCode": 200
+  },
+  {
+    "description": "Test to get users on page 2",
+    "endpoint": "api/users?page=4",
+    "expectedStatusCode": 200
+  },
+  {
+    "description": "Test to get users on page 2",
+    "endpoint": "api/users?page=5",
+    "expectedStatusCode": 200
+  },
+  {
+    "description": "Test with invalid endpoint",
+    "endpoint": "api/nonexistent",
+    "expectedStatusCode": 404
+  }
+]
