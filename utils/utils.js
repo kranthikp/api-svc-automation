@@ -17,4 +17,4 @@ async function postRequest(url, data) {
     throw error;
   }
 }
-module.exports = { postRequest };
+module.exports = { getRequest, postRequest };

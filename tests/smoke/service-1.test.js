@@ -1,10 +1,10 @@
 const axios = require("axios");
-const { postRequest } = require("../../utils/utils");
+const { postRequest, getRequest } = require("../../utils/utils");
 const { apiUrl } = require('../configs/testConfig');
 
 describe("API Tests", () => {
   test("GET Request", async () => {
-    const response = await axios.get(`${apiUrl}/api/users/2`);
+    const response = await getRequest(`${apiUrl}/api/users/2`);
     expect(response.status).toBe(200);
     // expect(response.data).to.be.an("object");
   });
