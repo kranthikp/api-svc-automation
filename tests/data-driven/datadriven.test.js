@@ -1,6 +1,8 @@
 const { makeRequest } = require('../../helpers/apiHelpers');
 const testData = require('../../testdata/testData.json');
 
+// code incomplete only skelton
+// implemenation TODO
 test.each(testData)(
     'data-driven should return status code ',
     async (description, endpoint, expectedStatusCode) => {

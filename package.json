@@ -29,6 +29,7 @@
     "jest-json-schema": "^6.1.0",
     "jest-junit": "^16.0.0",
     "jest-spec-reporter": "^1.0.19",
+    "jest-stare": "^2.5.1",
     "winston": "^3.10.0"
   }
 }
